@@ -4,11 +4,11 @@ each direction in order.
 
 Directions consist of a capital letter followed by an integer, with the following rules:
 - Initial-facing direction is East
-- There are only four directions: North, South, East, and West, each indicated by their initial character
+- There are only four move directions: North, South, East, and West, each indicated by their initial character
 - A cardinal direction indicates a move in the given direction by the given number of units
 - L and R indicate respectively a left or right rotation (and thus change to current-facing direct) as viewed from the
   helm by the given number of degrees
-- An F indicates a move in current-facing direction by the given number of degrees
+- An F indicates a move in current-facing direction by the given number of units
 
 Assumptions:
 - Left and right turns may only be executed by 90, 180, or 270 degrees

@@ -1,5 +1,5 @@
 """
-This program reads from an input a list of passports and prints out the number of valid passports, i.e., those
+This program reads from an input file a list of passports and prints out the number of valid passports, i.e., those
 passports with all mandatory fields and valid data for those fields.
 
 Assumptions:

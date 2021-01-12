@@ -14,7 +14,7 @@ with open(sys.argv[1]) as f:
     for line in f:
         bags = BAG_REGEX.findall(line)
         # Ignore bags which can contain no other bags
-        if bags[0] != "no other":
+        if bags[1] != "no other":
             for bag in bags[1:]:
                 rules[bag].append(bags[0])
 
